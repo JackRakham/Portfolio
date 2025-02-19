@@ -59,7 +59,7 @@ function Projects() {
               isBlog={false}
               title="Youtube trending data analysis"
               description="Built a end-to-end data pipeline to analyze the youtube trending videos dataset from Kaggle. The pipeline includes data cleaning, data transformation, data visualization and a machine learning model to predict the number of views a video will have."
-              ghLink="https://github.com/JackRakham/Depression-characterization-Colombia"
+              ghLink="https://github.com/JackRakham/AWS-Projects"
             />
           </Col>
 
