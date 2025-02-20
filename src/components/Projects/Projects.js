@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import architecture from "../../Assets/Projects/architecture.jpeg";
+import stockarchitecture from "../../Assets/Projects/stockarchitecture.jpg";
 import roomatch from "../../Assets/Projects/Roomatch.png";
 import segmentation from "../../Assets/Projects/segmentation.png";
 import depresion from "../../Assets/Projects/depresión.png";
@@ -58,7 +59,7 @@ function Projects() {
               imgPath={architecture}
               isBlog={false}
               title="Youtube trending data analysis"
-              description="Built a end-to-end data pipeline to analyze the youtube trending videos dataset from Kaggle. The pipeline includes data cleaning, data transformation, data visualization and a machine learning model to predict the number of views a video will have."
+              description="Built a end-to-end data pipeline to analyze the youtube trending videos provided by a dataset from Kaggle. The pipeline includes data cleaning, data transformation, and data visualization"
               ghLink="https://github.com/JackRakham/AWS-Projects"
             />
           </Col>
@@ -73,15 +74,15 @@ function Projects() {
             />
           </Col> */}
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={architecture}
+              imgPath={stockarchitecture}
               isBlog={false}
               title="Real-time stock market analysis"
-              description="Built a end-to-end data pipeline to analyze the youtube trending videos dataset from Kaggle. The pipeline includes data cleaning, data transformation, data visualization and a machine learning model to predict the number of views a video will have."
-              ghLink="https://github.com/JackRakham/Depression-characterization-Colombia"
+              description="Built an End-To-End Data Engineering Project on Real-Time Stock Market Data using Kafka. A python application simulates the real-time stream and the ETL is built in AWS in EC2 machines." 
+              ghLink="https://github.com/JackRakham/AWS-Projects"
             />
-          </Col> */}
+          </Col>
 
         </Row>
       </Container>
