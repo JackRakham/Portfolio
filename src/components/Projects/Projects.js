@@ -9,7 +9,7 @@ import stockarchitecture from "../../Assets/Projects/stockarchitecture.jpg";
 import roomatch from "../../Assets/Projects/Roomatch.png";
 import segmentation from "../../Assets/Projects/segmentation.png";
 import depresion from "../../Assets/Projects/depresión.png";
-
+import telegramc from "../../Assets/Projects/TelegramChannels.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -80,6 +80,17 @@ function Projects() {
               isBlog={false}
               title="Real-time stock market analysis"
               description="Built an End-To-End Data Engineering Project on Real-Time Stock Market Data using Kafka. A python application simulates the real-time stream and the ETL is built in AWS in EC2 machines." 
+              ghLink="https://github.com/JackRakham/AWS-Projects"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={telegramc}
+              isBlog={false}
+              title="Telegram message streamer"
+              description="Build a flask app that streams messages from a telegram channel and streams them from kafka. The app also has a front-end to visualize the messages and cnofigure settings." 
               ghLink="https://github.com/JackRakham/AWS-Projects"
             />
           </Col>
